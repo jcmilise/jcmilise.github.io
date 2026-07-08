@@ -1,0 +1,29 @@
+name: Publish website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh publications from PubMed
+        run: python scripts/fetch_pubs.py
+        continue-on-error: true
+      - name: Render all languages
+        run: |
+          quarto render --profile en
+          quarto render --profile ca --no-clean
+          quarto render --profile es --no-clean
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site

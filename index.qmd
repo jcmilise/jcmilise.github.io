@@ -13,9 +13,9 @@ pagetitle: "José C. Milisenda"
 </div>
 ```
 
-Senior internal medicine physician at the **Muscle Research Unit, Hospital Clínic de Barcelona**, and Associate Professor at the **Universitat de Barcelona**. My work centres on the idiopathic inflammatory myopathies — dermatomyositis, immune-mediated necrotizing myopathy, inclusion body myositis and the antisynthetase syndrome — integrating clinical phenotyping, muscle histopathology and molecular biology.
+Head of the **Unit of Neuromuscular, Mitochondrial and Autonomic Nervous System Diseases (UF-MNMA)** at Hospital Clínic de Barcelona, and Associate Professor at the **Universitat de Barcelona**. My work centres on the idiopathic inflammatory myopathies — dermatomyositis, immune-mediated necrotizing myopathy, inclusion body myositis and the antisynthetase syndrome — integrating clinical phenotyping, muscle histopathology and molecular biology.
 
-I trained in Medicine at the National University of Córdoba, completed my Internal Medicine residency and PhD (*cum laude*, 2019) at Hospital Clínic / Universitat de Barcelona, and carried out research stays at the **NIH / NIAMS** (Bethesda). I coordinate our unit's muscle-tissue biobank and have performed over 700 muscle, nerve and temporal-artery biopsies.
+I trained in Medicine at the National University of Córdoba, completed my Internal Medicine residency and PhD (*cum laude*, 2019) at Hospital Clínic / Universitat de Barcelona, and was a **postdoctoral fellow at the NIH / NIAMS** (Bethesda). I coordinate our unit's private biological sample collection.
 
 **Research lines**
 
@@ -37,7 +37,9 @@ I trained in Medicine at the National University of Córdoba, completed my Inter
 Esborrany de traducció — pendent de revisió.
 :::
 
-Metge especialista sènior de Medicina Interna a la **Unitat de Recerca Muscular de l'Hospital Clínic de Barcelona** i professor associat de la **Universitat de Barcelona**. La meva recerca se centra en les miopaties inflamatòries idiopàtiques — dermatomiositi, miopatia necrotitzant immunomediada, miositi per cossos d'inclusió i síndrome antisintetasa —, integrant la caracterització clínica, la histopatologia muscular i la biologia molecular.
+Cap de la **Unitat de Malalties Neuromusculars, Mitocondrials i del Sistema Nerviós Autònom (UF-MNMA)** de l'Hospital Clínic de Barcelona i professor associat de la **Universitat de Barcelona**. La meva recerca se centra en les miopaties inflamatòries idiopàtiques — dermatomiositi, miopatia necrotitzant immunomediada, miositi per cossos d'inclusió i síndrome antisintetasa —, integrant la caracterització clínica, la histopatologia muscular i la biologia molecular.
+
+Em vaig formar en Medicina a la Universitat Nacional de Córdoba, vaig completar la residència de Medicina Interna i el doctorat (*cum laude*, 2019) a l'Hospital Clínic / Universitat de Barcelona, i vaig ser **fellow postdoctoral al NIH / NIAMS** (Bethesda). Coordino la col·lecció privada de mostres biològiques de la nostra unitat.
 
 **Línies de recerca**
 
@@ -59,7 +61,9 @@ Metge especialista sènior de Medicina Interna a la **Unitat de Recerca Muscular
 Borrador de traducción — pendiente de revisión.
 :::
 
-Médico especialista sénior de Medicina Interna en la **Unidad de Investigación Muscular del Hospital Clínic de Barcelona** y profesor asociado de la **Universitat de Barcelona**. Mi investigación se centra en las miopatías inflamatorias idiopáticas — dermatomiositis, miopatía necrotizante inmunomediada, miositis por cuerpos de inclusión y síndrome antisintetasa —, integrando la caracterización clínica, la histopatología muscular y la biología molecular.
+Jefe de la **Unidad de Enfermedades Neuromusculares, Mitocondriales y del Sistema Nervioso Autónomo (UF-MNMA)** del Hospital Clínic de Barcelona y profesor asociado de la **Universitat de Barcelona**. Mi investigación se centra en las miopatías inflamatorias idiopáticas — dermatomiositis, miopatía necrotizante inmunomediada, miositis por cuerpos de inclusión y síndrome antisintetasa —, integrando la caracterización clínica, la histopatología muscular y la biología molecular.
+
+Me formé en Medicina en la Universidad Nacional de Córdoba, completé la residencia de Medicina Interna y el doctorado (*cum laude*, 2019) en el Hospital Clínic / Universitat de Barcelona, y fui **fellow postdoctoral en el NIH / NIAMS** (Bethesda). Coordino la colección privada de muestras biológicas de nuestra unidad.
 
 **Líneas de investigación**
 

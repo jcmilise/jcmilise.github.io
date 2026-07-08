@@ -1,0 +1,35 @@
+<!-- Sample list — replace by running: python scripts/fetch_pubs.py -->
+
+### 2024
+
+::: {.pub}
+Abad C, [**Milisenda JC**]{.me}, Pinal-Fernandez I, et al. IFNγ causes mitochondrial dysfunction and oxidative stress in myositis. [*Nat Commun*. 2024.]{.venue}
+:::
+
+### 2023
+
+::: {.pub}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, et al. The pattern of MHC class I expression in muscle biopsies from patients with myositis and other neuromuscular disorders. [*Rheumatology*. 2023.]{.venue}
+:::
+
+::: {.pub}
+Casal-Dominguez M, [**Pinal-Fernandez I**]{}, Pak K, [**Milisenda JC**]{.me}, et al. Coordinated local RNA overexpression of complement induced by interferon gamma in myositis. [*Sci Rep*. 2023.]{.venue}
+:::
+
+### 2020
+
+::: {.pub}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, Grau JM, et al. Accumulation of autophagosome cargo protein p62 is common in idiopathic inflammatory myopathies. [*Clin Exp Rheumatol*. 2020.]{.venue}
+:::
+
+::: {.pub}
+Montagne JM, Zheng XA, Pinal-Fernandez I, [**Milisenda JC**]{.me}, et al. Ultra-efficient sequencing of T-cell receptor repertoires reveals shared responses in muscle from patients with myositis. [*EBioMedicine*. 2020.]{.venue}
+:::
+
+::: {.pub}
+Seguí F, González-Quereda L, Sánchez A, [**Milisenda JC**]{.me}, et al. Anoctamin-5 (ANO5) muscular dystrophy — three phenotypes and a new histological pattern. [*Neurol Sci*. 2020.]{.venue}
+:::
+
+::: {.callout-note appearance="simple"}
+This is a short sample. Running `python scripts/fetch_pubs.py` replaces it with your complete, dated PubMed list automatically.
+:::

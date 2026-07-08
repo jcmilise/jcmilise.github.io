@@ -1,0 +1,121 @@
+---
+pagetitle: "CV — José C. Milisenda"
+---
+
+::: {.content-visible when-profile="en"}
+
+# Curriculum Vitae {.title}
+
+[[Download PDF](assets/Milisenda_CV.pdf) · Updated 2026]{.hero-role}
+
+## Education
+
+::: {.cv-entry}
+[**PhD in Medicine**, *cum laude* — Universitat de Barcelona]{} · [2019]{.date}<br>
+Advisor: Josep Maria Grau Junyent.
+:::
+::: {.cv-entry}
+[**Specialist in Internal Medicine** (MIR) — Hospital Clínic de Barcelona]{} · [2010–2015]{.date}
+:::
+::: {.cv-entry}
+[**MD** — National University of Córdoba, Argentina]{} · [2003–2009]{.date}
+:::
+::: {.cv-entry}
+[Postgraduate diplomas & master's: Molecular Medicine (Autoimmune Diseases, UB); *DIU de Myologie* (Pierre & Marie Curie, Paris VI); Medical Genetics (València); Inherited Metabolic Diseases (Santiago de Compostela); Lysosomal Diseases (Alcalá); Design & Statistics in Health Sciences (UAB).]{}
+:::
+
+## Appointments
+
+::: {.cv-entry}
+[**Senior Physician, Internal Medicine** — Muscle Research Unit, Hospital Clínic de Barcelona]{} · [2017–present]{.date}
+:::
+::: {.cv-entry}
+[**Associate Professor** — Faculty of Medicine & Health Sciences, Universitat de Barcelona]{} · [2018–present]{.date}
+:::
+::: {.cv-entry}
+[**Research stays** — NIH / NIAMS, Bethesda, USA (postdoctoral 2021–2022; visiting 2017)]{}
+:::
+
+## Teaching
+
+::: {.cv-entry}
+[Associate Professor — *Clinical Semiology & Medical Ethics* (Medicine) and *Pathophysiology & Imaging* (Nursing), UB]{} · [2018–present]{.date}
+:::
+::: {.cv-entry}
+[Coordinator & lecturer — Master's in Advanced Medical Competencies: *Autoimmune Diseases*, UB]{} · [2016–present]{.date}
+:::
+
+## Grants & Awards
+
+::: {.cv-entry}
+[**Emili Letang End-of-Residency Award**, Hospital Clínic — project on anti-mitochondrial M2 antibody myopathy]{} · [2015–2016]{.date}
+:::
+::: {.cv-entry}
+[International research-stay fellowship, PhD programme *Medicina i Recerca Translacional*]{} · [2016–2017]{.date}
+:::
+::: {.cv-entry}
+[Multiple best-oral-communication awards, national & Catalan internal-medicine congresses]{}
+:::
+
+## Selected publications
+
+*Name highlighted below. The full, continuously updated list is generated from PubMed — see [Complete list](#complete-list).*
+
+::: {.pub .featured}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, et al. The pattern of MHC class I expression in muscle biopsies from patients with myositis and other neuromuscular disorders. [*Rheumatology*. 2023.]{.venue}
+:::
+::: {.pub .featured}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, Grau JM, Miller FW, Selva-O'Callaghan A, et al. Accumulation of autophagosome cargo protein p62 is common in idiopathic inflammatory myopathies. [*Clin Exp Rheumatol*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Pinal-Fernandez I, Casal-Dominguez M, Derfoul A, [**Milisenda JC**]{.me}, et al. Machine-learning algorithms reveal unique gene-expression profiles in muscle biopsies from patients with different types of myositis. [*Ann Rheum Dis*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Montagne JM, Zheng XA, Pinal-Fernandez I, [**Milisenda JC**]{.me}, et al. Ultra-efficient sequencing of T-cell receptor repertoires reveals shared responses in muscle from patients with myositis. [*EBioMedicine*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Seguí F, González-Quereda L, Sánchez A, [**Milisenda JC**]{.me}, et al. Anoctamin-5 (ANO5) muscular dystrophy — three phenotypes and a new histological pattern. [*Neurol Sci*. 2020.]{.venue}
+:::
+
+## Complete list {#complete-list}
+
+{{< include _auto_publications.qmd >}}
+
+## Skills, service & memberships
+
+::: {.cv-entry}
+[**Muscle & nerve biopsy** — >700 procedures (deltoid, biceps, quadriceps, tibialis anterior, gastrocnemius, sural nerve, temporal artery). Coordinator of the Muscle Pathology Unit biobank, Hospital Clínic.]{}
+:::
+::: {.cv-entry}
+[**Data & methods** — statistical analysis (SPSS), reference management, GCP-certified for clinical trials.]{}
+:::
+::: {.cv-entry}
+[**Societies** — Spanish Society of Internal Medicine (SEMI): Minority Diseases, Clinical Ultrasound, and Systemic Autoimmune Diseases groups.]{}
+:::
+::: {.cv-entry}
+[**Languages** — Spanish (native), English (advanced), Catalan & French (intermediate).]{}
+:::
+
+:::
+
+<!-- ==================== CATALÀ ==================== -->
+::: {.content-visible when-profile="ca"}
+# Currículum {.title}
+
+::: {.callout-note appearance="simple"}
+Aquesta pàgina encara està en construcció en català. De moment, consulta la **[versió en anglès](../cv.html)**, més completa.
+:::
+
+[[Descarrega el PDF](assets/Milisenda_CV.pdf)]{.hero-role}
+:::
+
+<!-- ==================== ESPAÑOL ==================== -->
+::: {.content-visible when-profile="es"}
+# Currículum {.title}
+
+::: {.callout-note appearance="simple"}
+Esta página todavía está en construcción en español. Por ahora, consulta la **[versión en inglés](../cv.html)**, más completa.
+:::
+
+[[Descargar PDF](assets/Milisenda_CV.pdf)]{.hero-role}
+:::

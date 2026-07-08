@@ -1,0 +1,15 @@
+lang: en
+website:
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+      - text: "Català"
+        href: ca/index.html
+      - text: "Español"
+        href: es/index.html

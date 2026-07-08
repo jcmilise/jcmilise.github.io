@@ -1,0 +1,67 @@
+---
+pagetitle: "José C. Milisenda"
+---
+
+::: {.content-visible when-profile="en"}
+```{=html}
+<div style="display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin:1.5rem 0 0.5rem;">
+  <img src="assets/profile.png" class="hero-photo" alt="José César Milisenda">
+  <div>
+    <h1 class="title" style="margin:0;">José César Milisenda</h1>
+    <div class="hero-role">MD, PhD &middot; Internal Medicine &amp; Neuromuscular Disease</div>
+  </div>
+</div>
+```
+
+Senior internal medicine physician at the **Muscle Research Unit, Hospital Clínic de Barcelona**, and Associate Professor at the **Universitat de Barcelona**. My work centres on the idiopathic inflammatory myopathies — dermatomyositis, immune-mediated necrotizing myopathy, inclusion body myositis and the antisynthetase syndrome — integrating clinical phenotyping, muscle histopathology and molecular biology.
+
+I trained in Medicine at the National University of Córdoba, completed my Internal Medicine residency and PhD (*cum laude*, 2019) at Hospital Clínic / Universitat de Barcelona, and carried out research stays at the **NIH / NIAMS** (Bethesda). I coordinate our unit's muscle-tissue biobank and have performed over 700 muscle, nerve and temporal-artery biopsies.
+
+**Research lines**
+
+[Inflammatory myopathies]{.research-tag} [Muscle histopathology]{.research-tag} [Muscle transcriptomics / RNA-seq]{.research-tag} [Myositis-specific autoantibodies]{.research-tag} [Muscle biobanking]{.research-tag}
+:::
+
+::: {.content-visible when-profile="ca"}
+```{=html}
+<div style="display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin:1.5rem 0 0.5rem;">
+  <img src="assets/profile.png" class="hero-photo" alt="José César Milisenda">
+  <div>
+    <h1 class="title" style="margin:0;">José César Milisenda</h1>
+    <div class="hero-role">MD, PhD &middot; Medicina Interna i Malaltia Neuromuscular</div>
+  </div>
+</div>
+```
+
+::: {.callout-note appearance="simple"}
+Esborrany de traducció — pendent de revisió.
+:::
+
+Metge especialista sènior de Medicina Interna a la **Unitat de Recerca Muscular de l'Hospital Clínic de Barcelona** i professor associat de la **Universitat de Barcelona**. La meva recerca se centra en les miopaties inflamatòries idiopàtiques — dermatomiositi, miopatia necrotitzant immunomediada, miositi per cossos d'inclusió i síndrome antisintetasa —, integrant la caracterització clínica, la histopatologia muscular i la biologia molecular.
+
+**Línies de recerca**
+
+[Miopaties inflamatòries]{.research-tag} [Histopatologia muscular]{.research-tag} [Transcriptòmica muscular]{.research-tag} [Autoanticossos]{.research-tag} [Biobanc muscular]{.research-tag}
+:::
+
+::: {.content-visible when-profile="es"}
+```{=html}
+<div style="display:flex;gap:2rem;align-items:center;flex-wrap:wrap;margin:1.5rem 0 0.5rem;">
+  <img src="assets/profile.png" class="hero-photo" alt="José César Milisenda">
+  <div>
+    <h1 class="title" style="margin:0;">José César Milisenda</h1>
+    <div class="hero-role">MD, PhD &middot; Medicina Interna y Enfermedad Neuromuscular</div>
+  </div>
+</div>
+```
+
+::: {.callout-note appearance="simple"}
+Borrador de traducción — pendiente de revisión.
+:::
+
+Médico especialista sénior de Medicina Interna en la **Unidad de Investigación Muscular del Hospital Clínic de Barcelona** y profesor asociado de la **Universitat de Barcelona**. Mi investigación se centra en las miopatías inflamatorias idiopáticas — dermatomiositis, miopatía necrotizante inmunomediada, miositis por cuerpos de inclusión y síndrome antisintetasa —, integrando la caracterización clínica, la histopatología muscular y la biología molecular.
+
+**Líneas de investigación**
+
+[Miopatías inflamatorias]{.research-tag} [Histopatología muscular]{.research-tag} [Transcriptómica muscular]{.research-tag} [Autoanticuerpos]{.research-tag} [Biobanco muscular]{.research-tag}
+:::

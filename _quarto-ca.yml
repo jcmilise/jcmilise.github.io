@@ -1,0 +1,17 @@
+lang: ca
+project:
+  output-dir: _site/ca
+website:
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Inici
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contacte
+      - text: "EN"
+        href: ../index.html
+      - text: "ES"
+        href: ../es/index.html

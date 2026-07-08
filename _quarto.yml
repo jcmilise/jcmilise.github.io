@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+# Trilingual via profiles. Exactly one of en/ca/es is active per render.
+profile:
+  default: en
+  group:
+    - [en, ca, es]
+
+website:
+  title: "José C. Milisenda"
+  favicon: assets/favicon.png
+  page-footer:
+    center: "© 2026 José César Milisenda · Barcelona"
+    right:
+      - icon: github
+        href: https://github.com/
+      - text: ORCID
+        href: https://orcid.org/0000-0001-6338-9218
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    toc: false
+    page-layout: article
+    smooth-scroll: true
+    link-external-newwindow: true

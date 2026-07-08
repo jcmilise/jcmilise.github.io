@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+
+$paper:      #15130F;   // ink-dark ground
+$ink:        #ECE7DF;
+$muted:      #9C968C;
+$eosin:      #D98BA0;   // eosin lifted for dark bg
+$eosin-soft: #A85E72;
+$hairline:   #2C2822;
+
+$body-bg:        $paper;
+$body-color:     $ink;
+$link-color:     $eosin;
+$link-hover-color: lighten($eosin, 8%);
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family:   "Spectral", Georgia, serif;
+$font-size-root:  17px;
+$line-height-base: 1.65;
+$headings-font-weight: 500;
+
+$navbar-bg: $paper;
+
+/*-- scss:rules --*/
+
+body { -webkit-font-smoothing: antialiased; letter-spacing: -0.005em; }
+.navbar { border-bottom: 1px solid $hairline; font-family: "Inter", sans-serif; font-weight: 500; letter-spacing: 0.02em; }
+.navbar-brand { font-family: "Spectral", serif; font-weight: 600; font-size: 1.15rem; }
+main.content, .page-columns { max-width: 780px; }
+h1, h2, h3 { letter-spacing: -0.015em; }
+h1.title { font-weight: 600; font-size: 2.4rem; line-height: 1.1; margin-bottom: 0.2rem; }
+h2 { font-size: 1.5rem; margin-top: 2.6rem; padding-bottom: 0.35rem; border-bottom: 1px solid $hairline; }
+h2::before { content: ""; display: inline-block; width: 1.6rem; height: 2px; background: $eosin; vertical-align: middle; margin-right: 0.6rem; transform: translateY(-0.25rem); }
+.hero-photo { width: 168px; height: 168px; border-radius: 50%; object-fit: cover; border: 3px solid $paper; box-shadow: 0 0 0 1px $hairline; }
+.hero-role { color: $muted; font-size: 1.05rem; margin-top: 0.1rem; }
+.research-tag { display: inline-block; font-size: 0.85rem; color: $eosin; border: 1px solid $eosin-soft; border-radius: 999px; padding: 0.15rem 0.7rem; margin: 0.2rem 0.3rem 0.2rem 0; }
+.pub { margin-bottom: 0.9rem; padding-left: 1rem; border-left: 2px solid $hairline; }
+.pub .venue { color: $muted; font-style: italic; }
+.pub .me { color: $eosin; font-weight: 600; }
+.pub.featured { border-left-color: $eosin; }
+a { text-decoration: none; border-bottom: 1px solid rgba($eosin, 0.3); }
+a:hover { border-bottom-color: $eosin; }
+.navbar a, .nav-link { border-bottom: none; }
+.cv-entry { margin-bottom: 0.6rem; }
+.cv-entry .date { color: $muted; font-variant-numeric: tabular-nums; }

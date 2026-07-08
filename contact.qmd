@@ -1,0 +1,44 @@
+---
+pagetitle: "Contact — José C. Milisenda"
+---
+
+::: {.content-visible when-profile="en"}
+# Contact {.title}
+
+Muscle Research Unit, Department of Internal Medicine<br>
+Hospital Clínic de Barcelona — Universitat de Barcelona<br>
+Barcelona, Spain
+
+**Email** · [jcmilise@clinic.cat](mailto:jcmilise@clinic.cat)
+:::
+
+::: {.content-visible when-profile="ca"}
+# Contacte {.title}
+
+Unitat de Recerca Muscular, Servei de Medicina Interna<br>
+Hospital Clínic de Barcelona — Universitat de Barcelona<br>
+Barcelona
+
+**Correu** · [jcmilise@clinic.cat](mailto:jcmilise@clinic.cat)
+:::
+
+::: {.content-visible when-profile="es"}
+# Contacto {.title}
+
+Unidad de Investigación Muscular, Servicio de Medicina Interna<br>
+Hospital Clínic de Barcelona — Universitat de Barcelona<br>
+Barcelona
+
+**Correo** · [jcmilise@clinic.cat](mailto:jcmilise@clinic.cat)
+:::
+
+## Profiles {.content-visible when-profile="en"}
+
+## Perfils {.content-visible when-profile="ca"}
+
+## Perfiles {.content-visible when-profile="es"}
+
+- [Google Scholar](https://scholar.google.com/citations?user=EsAFB5kAAAAJ)
+- [ORCID 0000-0001-6338-9218](https://orcid.org/0000-0001-6338-9218)
+- [Scopus](https://www.scopus.com/)
+- [PubMed publications](https://pubmed.ncbi.nlm.nih.gov/?term=Milisenda+JC%5BAuthor%5D)

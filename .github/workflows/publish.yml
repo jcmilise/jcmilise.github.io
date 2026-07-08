@@ -14,18 +14,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Refresh publications from PubMed
-        working-directory: files
+      - name: Refresh publications
         run: python scripts/fetch_pubs.py
         continue-on-error: true
-      - name: Render all languages
-        working-directory: files
+      - name: Render
         run: |
           quarto render --profile en
           quarto render --profile ca --no-clean
           quarto render --profile es --no-clean
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./files/_site
+          publish_dir: ./_site

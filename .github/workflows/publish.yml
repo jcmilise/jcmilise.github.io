@@ -15,9 +15,11 @@ jobs:
         with:
           python-version: '3.12'
       - name: Refresh publications from PubMed
+        working-directory: files
         run: python scripts/fetch_pubs.py
         continue-on-error: true
       - name: Render all languages
+        working-directory: files
         run: |
           quarto render --profile en
           quarto render --profile ca --no-clean
@@ -26,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./files/_site

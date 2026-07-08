@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: _site
 
-# Trilingual via profiles. Exactly one of en/ca/es is active per render.
 profile:
   default: en
   group:
@@ -14,10 +13,10 @@ website:
   page-footer:
     center: "© 2026 José César Milisenda · Barcelona"
     right:
-      - icon: github
-        href: https://github.com/
       - text: ORCID
-        href: https://orcid.org/0000-0001-6338-9218
+        href: https://orcid.org/0000-0003-0151-7872
+      - text: Scholar
+        href: https://scholar.google.com/citations?user=VnfHQaQAAAAJ
 
 format:
   html:

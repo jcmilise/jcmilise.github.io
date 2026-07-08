@@ -69,3 +69,11 @@ Me formé en Medicina en la Universidad Nacional de Córdoba, completé la resid
 
 [Miopatías inflamatorias]{.research-tag} [Histopatología muscular]{.research-tag} [Transcriptómica muscular]{.research-tag} [Autoanticuerpos]{.research-tag} [Biobanco muscular]{.research-tag}
 :::
+::: {.column-page}
+```{=html}
+<figure style="margin:2.8rem 0 0.5rem;">
+  <img src="assets/histology.jpg" alt="Muscle histology" style="width:100%;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.18);display:block;">
+  <figcaption style="font-size:.85rem;color:#66625C;margin-top:.6rem;text-align:center;font-style:italic;">Muscle histology — from our biopsy collection</figcaption>
+</figure>
+```
+:::

@@ -69,6 +69,7 @@ Me formé en Medicina en la Universidad Nacional de Córdoba, completé la resid
 
 [Miopatías inflamatorias]{.research-tag} [Histopatología muscular]{.research-tag} [Transcriptómica muscular]{.research-tag} [Autoanticuerpos]{.research-tag} [Biobanco muscular]{.research-tag}
 :::
+
 ::: {.column-page}
 ```{=html}
 <figure style="margin:2.8rem 0 0.5rem;">

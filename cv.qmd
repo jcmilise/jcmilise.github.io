@@ -27,7 +27,7 @@ Advisor: Josep Maria Grau Junyent.
 ## Appointments
 
 ::: {.cv-entry}
-[**Senior Physician, Internal Medicine** — Muscle Research Unit, Hospital Clínic de Barcelona]{} · [2017–present]{.date}
+[**Senior Physician, Internal Medicine**, and **Head of the Unit of Neuromuscular, Mitochondrial and Autonomic Nervous System Diseases (UF-MNMA)** — Hospital Clínic de Barcelona]{} · [2017–present]{.date}
 :::
 ::: {.cv-entry}
 [**Associate Professor** — Faculty of Medicine & Health Sciences, Universitat de Barcelona]{} · [2018–present]{.date}
@@ -35,6 +35,29 @@ Advisor: Josep Maria Grau Junyent.
 ::: {.cv-entry}
 [**Research stays** — NIH / NIAMS, Bethesda, USA (postdoctoral 2021–2022; visiting 2017)]{}
 :::
+
+## Clinical activity
+
+Reference physician for muscular and inherited metabolic diseases at Hospital Clínic de Barcelona — both intra-hospital (internal referrals from pulmonology, cardiology, surgery, endocrinology and others) and as a national and international referral for these conditions.
+
+- Leads the **muscle-disease arm** of the Hospital Clínic muscular & metabolic diseases group (metabolic arm led by Dr. Pedro Moreno), coordinating multidisciplinary care across neurology, pneumology, cardiology, rehabilitation, dermatology, endocrinology, genetics and psychiatry.
+- Runs a **monographic referral outpatient clinic** for adults with muscular and metabolic diseases (~280 active patients; ~80–90 new and ~450 follow-up visits per year), including structured transfer of adult patients from the pediatric Hospital Sant Joan de Déu.
+- **Coordinates 100% of the group's diagnostic procedures and personally performs ~80%** in the Internal Medicine Day Hospital: muscle biopsy (~120–140/yr), nerve biopsy (15–20/yr), skin biopsy (7–10/yr) and forearm ischemia testing.
+- Created and coordinates a **private biobank** (muscle, plasma, serum, DNA) at IDIBAPS — over **2,000 samples** — enabling national and international research collaborations; designed the standardized biopsy-request circuit now used across Catalonia, Spain and Latin America.
+- Leads **weekly muscle-pathology sessions** (Fridays) with virtual participation from centers in Spain, Latin America and the USA.
+- Active in general internal medicine (hospitalization ward and on-call duties).
+
+**Care innovations**
+
+- Introduced new therapies into Internal Medicine: enzyme-replacement therapy (Gaucher, Pompe), 3,4-diaminopyridine (congenital myasthenic syndromes), and anti–plasma cell therapy (teclistamab) for refractory idiopathic inflammatory myopathy, in collaboration with Hematology.
+- Implemented **anti-human IgG immunohistochemistry** on muscle tissue as a new diagnostic technique.
+- Optimized circuits for genetic testing and for research referral of undiagnosed patients.
+
+**Reference networks & accreditations**
+
+- Member of **CSUR** and **XUEC** accredited groups (Congenital Metabolic Diseases; Systemic Autoimmune Diseases).
+- Member of a funded **Consolidated Research Group (GRC)** accredited by AGAUR (2021 SGR 01423), IDIBAPS.
+- Contributor to two **ENMC international workshops** (2026): #293 (immune-checkpoint-inhibitor myotoxicity) and #294 (paraproteinemic myopathies).
 
 ## Teaching
 
@@ -83,9 +106,6 @@ Seguí F, González-Quereda L, Sánchez A, [**Milisenda JC**]{.me}, et al. Anoct
 
 ## Skills, service & memberships
 
-::: {.cv-entry}
-[**Muscle & nerve biopsy** — >700 procedures (deltoid, biceps, quadriceps, tibialis anterior, gastrocnemius, sural nerve, temporal artery). Coordinator of the Muscle Pathology Unit biobank, Hospital Clínic.]{}
-:::
 ::: {.cv-entry}
 [**Data & methods** — statistical analysis (SPSS), reference management, GCP-certified for clinical trials.]{}
 :::

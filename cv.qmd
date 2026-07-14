@@ -6,8 +6,9 @@ pagetitle: "CV — José C. Milisenda"
 <style>
 .cv-index { border: 1px solid var(--bs-border-color, #E7E3DC); border-radius: 10px; padding: 1rem 1.4rem 1.1rem; margin: 1.3rem 0 2.4rem; background: rgba(142,59,84,.035); }
 .cv-index p { margin: 0 0 .5rem; font-family: "Spectral", serif; font-weight: 600; font-size: 1.05rem; }
-.cv-index ul { columns: 2; column-gap: 2rem; margin: 0; padding-left: 1.1rem; }
-.cv-index li { margin: .22rem 0; }
+.cv-index ul { margin: 0; padding-left: 1.1rem; }
+.cv-index ul ul { margin: .15rem 0 .35rem; }
+.cv-index li { margin: .18rem 0; }
 .cv-index a { border-bottom: none; }
 .cv-index a:hover { text-decoration: underline; }
 </style>
@@ -23,11 +24,17 @@ pagetitle: "CV — José C. Milisenda"
 Contents
 
 - [Clinical activity](#clinical-activity)
+- [Research](#research)
+    - [Publications](#publications)
+    - [Competitive funded projects](#projects)
+    - [Doctoral thesis](#phd)
+    - [Conference communications](#communications)
+    - [Editorial boards](#editorial)
+    - [Clinical trials (site PI)](#trials)
 - [Education](#education)
 - [Appointments](#appointments)
 - [Teaching](#teaching)
-- [Grants & awards](#grants-awards)
-- [Publications](#publications)
+- [Awards & fellowships](#awards)
 - [Skills, service & memberships](#skills)
 :::
 
@@ -51,14 +58,114 @@ Reference physician for muscular and inherited metabolic diseases at Hospital Cl
 **Reference networks & accreditations**
 
 - Member of **CSUR** and **XUEC** accredited groups (Congenital Metabolic Diseases; Systemic Autoimmune Diseases).
-- Member of a funded **Consolidated Research Group (GRC)** accredited by AGAUR (2021 SGR 01423), IDIBAPS.
 - Contributor to two **ENMC international workshops** (2026): #293 (immune-checkpoint-inhibitor myotoxicity) and #294 (paraproteinemic myopathies).
+
+## Research {#research}
+
+### Publications {#publications}
+
+*Selected below (name highlighted). The full, continuously updated list is generated from PubMed — see [complete list](#complete-list).*
+
+::: {.pub .featured}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, et al. The pattern of MHC class I expression in muscle biopsies from patients with myositis and other neuromuscular disorders. [*Rheumatology*. 2023.]{.venue}
+:::
+::: {.pub .featured}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, Grau JM, Miller FW, Selva-O'Callaghan A, et al. Accumulation of autophagosome cargo protein p62 is common in idiopathic inflammatory myopathies. [*Clin Exp Rheumatol*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Pinal-Fernandez I, Casal-Dominguez M, Derfoul A, [**Milisenda JC**]{.me}, et al. Machine-learning algorithms reveal unique gene-expression profiles in muscle biopsies from patients with different types of myositis. [*Ann Rheum Dis*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Montagne JM, Zheng XA, Pinal-Fernandez I, [**Milisenda JC**]{.me}, et al. Ultra-efficient sequencing of T-cell receptor repertoires reveals shared responses in muscle from patients with myositis. [*EBioMedicine*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Milisenda JC, Matas-García A. Pompe disease. [*Med Clin (Barc)*. 2025.]{.venue}
+:::
+
+#### Complete list {#complete-list}
+
+{{< include _auto_publications.qmd >}}
+
+### Competitive funded research projects {#projects}
+
+::: {.cv-entry}
+[**FIS PI24/00428** — Instituto de Salud Carlos III. *Molecular signature and 3D muscle models to establish etiology, biomarkers and therapeutics in inclusion body myositis.* Co-principal investigator (with G. Garrabou). €152,500.]{} · [2025–2027]{.date}
+:::
+::: {.cv-entry}
+[**FEMI Proyectos 2022** — Spanish Society of Internal Medicine. *Digital muscle biopsy: transcriptomic analysis as an alternative to conventional histology in myositis.* Principal investigator. €27,456.]{} · [2023–2026]{.date}
+:::
+::: {.cv-entry}
+[**PrometER 2023** — CIBERER / Instituto de Salud Carlos III. *Transcriptomic profile in systemic-sclerosis–associated myopathy.* Principal investigator. €19,782.]{} · [2024]{.date}
+:::
+::: {.cv-entry}
+[Member of the funded **Consolidated Research Group (GRC)** on neuromuscular & inherited metabolic diseases — AGAUR, Generalitat de Catalunya (2021 SGR 01423), IDIBAPS.]{}
+:::
+
+### Doctoral thesis {#phd}
+
+::: {.cv-entry}
+[**PhD in Medicine**, *cum laude* — Universitat de Barcelona. Doctoral programme in Medicine and Translational Research. Advisor: Josep Maria Grau Junyent.]{} · [2019]{.date}
+:::
+
+### Conference communications {#communications}
+
+Abstracts and oral communications at national and international meetings (author role noted).
+
+::: {.callout-note appearance="simple" collapse="true" title="Show all communications"}
+- **2026** — Aggregation of HARS1 and internalized antibodies in muscle biopsies of patients with antisynthetase syndrome. *(First author.)*
+- **2026** — Muscle transcriptomic profile in patients with dermatomyositis without characteristic histopathology. *(First author.)*
+- **2025** — Myeloid dendritic cell subsets characterize muscle of inclusion body myositis patients and correlate with disease features. *(Co-author.)*
+- **2025** — Aggregation of HARS1 and internalized antibodies in muscle biopsies of patients with antisynthetase syndrome. *(Co-author.)*
+- **2024** — Anti-Mi2 autoantibodies in dermatomyositis patients also recognize the autoimmune regulator (AIRE) protein. *(Co-author.)*
+- **2024** — Specific transcriptomic profile associated with disease activity in muscle biopsies from patients with myositis. *(Co-author.)*
+- **2024** — Antisynthetase autoantibodies disrupt the function of their target aminoacyl-tRNA synthetases in muscle. *(Co-author.)*
+- **2024** — Comparative transcriptional profiling reveals shared pathway activation in Jo-1+ antisynthetase syndrome. *(Co-author.)*
+- **2023** — Muscle pathology in patients with primary biliary cholangitis. *(First author.)*
+- **2023** — Transcriptional derepression of CHD4/NuRD-regulated genes in the muscle of patients with dermatomyositis. *(Second author.)*
+- **2023** — Transcriptomic profiles in muscle biopsies from systemic sclerosis patients with different autoantibodies. *(Second author.)*
+- **2019** — The prevalence of p62 immunostaining in muscle biopsies from patients with myositis and non-inflammatory myopathies. *(First author.)*
+- **2019** — Afectación gastrointestinal en pacientes con dermatomiositis: 3 casos y revisión de la literatura. *(Co-author.)*
+- **2019** — Tumour-infiltrating lymphocyte quantification in cancer-associated dermatomyositis. *(Co-author.)*
+- **2019** — Myositis autoantigen expression correlates with muscle regeneration but not autoantibody specificity. *(Co-author.)*
+- **2019** — PD-1/PD-L1 inhibitor-associated myositis: characteristic histopathological muscle pattern. *(Co-author.)*
+- **2018** — ANO5: three different phenotypes and a new histological pattern. *(Last author.)*
+- **2018** — Long-term motor function in collagen VI-related myopathies. *(Co-author.)*
+- **2018** — Miopatía necrosante con anticuerpos anti-HMGCoA. *(Co-author.)*
+- **2018** — Hiperckemia y rabdomiólisis. *(Co-author.)*
+- **2016** — Distinctive liver immunofluorescence pattern in statin-associated autoimmune myopathy with anti-HMGCR. *(Co-author.)*
+- **2013** — Adult Pompe disease: screening in patients with myopathies of unknown etiology. *(Co-author.)*
+- **2012** — Dermatomyositis presenting with severe subcutaneous edema: five cases and review of the literature. *(First author.)*
+- **2012** — Leptomeningeal amyloidosis due to the transthyretin p.Ala25Thr mutation. *(Co-author.)*
+- **2012** — Forearm ischemic exercise test (FIET): experience in an internal medicine department. *(Co-author.)*
+:::
+
+### Editorial boards {#editorial}
+
+::: {.cv-entry}
+[**Current Treatment Options in Rheumatology** — editorial board member. Indexed in Scopus (CiteScore; SJR quartile) and Web of Science.]{}
+:::
+::: {.cv-entry}
+[**Discover Immunity** — editorial board member. Indexed in Dimensions, Google Scholar, ProQuest and Portico.]{}
+:::
+
+### Clinical trials — site principal investigator {#trials}
+
+Principal investigator at Hospital Clínic for non-competitive multicenter (industry-sponsored) trials in inflammatory and mitochondrial myopathies.
+
+::: {.callout-note appearance="simple" collapse="true" title="Show trials"}
+- **Nipocalimab** in active idiopathic inflammatory myopathy (SPIREA, Phase 2) — Janssen-Cilag. 2024–2028.
+- **Efgartigimod PH20 SC** in idiopathic inflammatory myopathy (Phase 2/3 and open-label extension) — Argenx. 2023–2026.
+- **GLPG3667** in dermatomyositis (Phase 2) — Galapagos. 2023–2025.
+- **IgPro20 (subcutaneous immunoglobulin, Hizentra)** in dermatomyositis (RECLAIIM) — CSL Behring. 2023.
+- **AAV8 antibody seroprevalence** in late-onset Pompe disease — Astellas Gene Therapies. 2024–2028.
+- **REN001** in primary mitochondrial myopathy (long-term safety) — Reneo Pharma / Orphan Reach. 2021–2024.
+- **Elamipretide** in primary mitochondrial myopathy (Phase 3) — Stealth Biotherapeutics. 2022–2025.
+:::
 
 ## Education {#education}
 
 ::: {.cv-entry}
-[**PhD in Medicine**, *cum laude* — Universitat de Barcelona]{} · [2019]{.date}<br>
-Advisor: Josep Maria Grau Junyent.
+[**PhD in Medicine**, *cum laude* — Universitat de Barcelona]{} · [2019]{.date}
 :::
 ::: {.cv-entry}
 [**Specialist in Internal Medicine** (MIR) — Hospital Clínic de Barcelona]{} · [2010–2015]{.date}
@@ -91,7 +198,7 @@ Advisor: Josep Maria Grau Junyent.
 [Coordinator & lecturer — Master's in Advanced Medical Competencies: *Autoimmune Diseases*, UB]{} · [2016–present]{.date}
 :::
 
-## Grants & awards {#grants-awards}
+## Awards & fellowships {#awards}
 
 ::: {.cv-entry}
 [**Emili Letang End-of-Residency Award**, Hospital Clínic — project on anti-mitochondrial M2 antibody myopathy]{} · [2015–2016]{.date}
@@ -102,30 +209,6 @@ Advisor: Josep Maria Grau Junyent.
 ::: {.cv-entry}
 [Multiple best-oral-communication awards, national & Catalan internal-medicine congresses]{}
 :::
-
-## Publications {#publications}
-
-*Selected below (name highlighted). The full, continuously updated list is generated from PubMed — see [complete list](#complete-list).*
-
-::: {.pub .featured}
-[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, et al. The pattern of MHC class I expression in muscle biopsies from patients with myositis and other neuromuscular disorders. [*Rheumatology*. 2023.]{.venue}
-:::
-::: {.pub .featured}
-[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, Grau JM, Miller FW, Selva-O'Callaghan A, et al. Accumulation of autophagosome cargo protein p62 is common in idiopathic inflammatory myopathies. [*Clin Exp Rheumatol*. 2020.]{.venue}
-:::
-::: {.pub .featured}
-Pinal-Fernandez I, Casal-Dominguez M, Derfoul A, [**Milisenda JC**]{.me}, et al. Machine-learning algorithms reveal unique gene-expression profiles in muscle biopsies from patients with different types of myositis. [*Ann Rheum Dis*. 2020.]{.venue}
-:::
-::: {.pub .featured}
-Montagne JM, Zheng XA, Pinal-Fernandez I, [**Milisenda JC**]{.me}, et al. Ultra-efficient sequencing of T-cell receptor repertoires reveals shared responses in muscle from patients with myositis. [*EBioMedicine*. 2020.]{.venue}
-:::
-::: {.pub .featured}
-Seguí F, González-Quereda L, Sánchez A, [**Milisenda JC**]{.me}, et al. Anoctamin-5 (ANO5) muscular dystrophy — three phenotypes and a new histological pattern. [*Neurol Sci*. 2020.]{.venue}
-:::
-
-### Complete list {#complete-list}
-
-{{< include _auto_publications.qmd >}}
 
 ## Skills, service & memberships {#skills}
 

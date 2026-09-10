@@ -22,6 +22,13 @@ pagetitle: "CV — José C. Milisenda"
 
 [[Download PDF](assets/Milisenda_CV.pdf) · Updated 2026]{.hero-role}
 
+```{=html}
+<div class="cv-logos">
+  <img src="assets/logo-clinic.png" alt="Hospital Clínic de Barcelona">
+  <img src="assets/logo-ub.png" alt="Universitat de Barcelona">
+</div>
+```
+
 ::: {.cv-index}
 Contents
 

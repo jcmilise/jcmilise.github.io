@@ -11,6 +11,8 @@ pagetitle: "CV — José C. Milisenda"
 .cv-index li { margin: .18rem 0; }
 .cv-index a { border-bottom: none; }
 .cv-index a:hover { text-decoration: underline; }
+.cv-logos { display:flex; align-items:center; gap:22px; margin:.7rem 0 .2rem; }
+.cv-logos img { height:40px; width:auto; }
 </style>
 ```
 

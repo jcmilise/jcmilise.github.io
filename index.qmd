@@ -1,98 +1,262 @@
 ---
-pagetitle: "José C. Milisenda"
-page-layout: full
-resources:
-  - assets/histology.jpg
+pagetitle: "CV — José C. Milisenda"
 ---
 
 ```{=html}
 <style>
-#quarto-content { max-width: 820px !important; margin-left: auto !important; margin-right: auto !important; }
-main#quarto-document-content { max-width: 100% !important; }
-.hero-center { text-align: center; margin-top: 1.6rem; margin-bottom: 1.4rem; }
-.hero-photo-lg { width: 184px; height: 184px; border-radius: 50%; object-fit: cover; border: 1px solid var(--bs-border-color, #E7E3DC); box-shadow: 0 4px 18px rgba(0,0,0,.16); }
-.hero-name { font-family: "Spectral", serif; font-weight: 600; font-size: 2.5rem; line-height: 1.1; margin: 1rem 0 0; }
-.hero-role2 { color: var(--bs-secondary-color, #66625C); font-size: 1.08rem; margin-top: .25rem; }
-.bio-center { text-align: center; max-width: 660px; margin: 0 auto; }
-.bio-center p { margin-bottom: 1rem; }
-.bio-center .research-tag { margin: .25rem .3rem; }
-.histo-feature { margin: 2.8rem 0 0.5rem; }
-.histo-img { display:block; width:100%; height:330px; object-fit:cover; object-position:center 45%; border-radius:12px; box-shadow:0 1px 6px rgba(0,0,0,.18); }
-.histo-feature figcaption { text-align: center; font-style: italic; color: var(--bs-secondary-color, #66625C); font-size: .9rem; margin-top: .7rem; }
+.cv-index { border: 1px solid var(--bs-border-color, #E7E3DC); border-radius: 10px; padding: 1rem 1.4rem 1.1rem; margin: 1.3rem 0 2.4rem; background: rgba(142,59,84,.035); }
+.cv-index p { margin: 0 0 .5rem; font-family: "Spectral", serif; font-weight: 600; font-size: 1.05rem; }
+.cv-index ul { margin: 0; padding-left: 1.1rem; }
+.cv-index ul ul { margin: .15rem 0 .35rem; }
+.cv-index li { margin: .18rem 0; }
+.cv-index a { border-bottom: none; }
+.cv-index a:hover { text-decoration: underline; }
+.cv-logos { display:flex; align-items:center; gap:22px; margin:.7rem 0 .2rem; }
+.cv-logos img { height:40px; width:auto; }
 </style>
 ```
 
 ::: {.content-visible when-profile="en"}
+
+# Curriculum Vitae {.title}
+
+[[Download PDF](assets/Milisenda_CV.pdf) · Updated 2026]{.hero-role}
+
 ```{=html}
-<div class="hero-center">
-  <img class="hero-photo-lg" src="assets/profile.png" alt="José César Milisenda">
-  <h1 class="hero-name">José César Milisenda</h1>
-  <div class="hero-role2">MD, PhD &middot; Internal Medicine &amp; Neuromuscular Disease</div>
+<div class="cv-logos">
+  <img src="assets/logo-clinic.png" alt="Hospital Clínic de Barcelona">
+  <img src="assets/logo-ub.png" alt="Universitat de Barcelona">
 </div>
 ```
 
-::: {.bio-center}
-Head of the **Unit of Neuromuscular, Mitochondrial and Autonomic Nervous System Diseases (UF-MNMA)** at Hospital Clínic de Barcelona, and Associate Professor at the **Universitat de Barcelona**. My work centres on the idiopathic inflammatory myopathies — dermatomyositis, immune-mediated necrotizing myopathy, inclusion body myositis and the antisynthetase syndrome — integrating clinical phenotyping, muscle histopathology and molecular biology.
+::: {.cv-index}
+Contents
 
-I trained in Medicine at the National University of Córdoba, completed my Internal Medicine residency and PhD (*cum laude*, 2019) at Hospital Clínic / Universitat de Barcelona, and was a **postdoctoral fellow at the NIH / NIAMS** (Bethesda). I coordinate our unit's private biological sample collection.
-
-**Research lines**
-
-[Inflammatory myopathies]{.research-tag} [Muscle histopathology]{.research-tag} [Muscle transcriptomics / RNA-seq]{.research-tag} [Myositis-specific autoantibodies]{.research-tag} [Muscle biobanking]{.research-tag}
+- [Clinical activity](#clinical-activity)
+- [Research](#research)
+    - [Publications](#publications)
+    - [Competitive funded projects](#projects)
+    - [Doctoral thesis](#phd)
+    - [Conference communications](#communications)
+    - [Editorial boards](#editorial)
+    - [Clinical trials (site PI)](#trials)
+- [Education](#education)
+- [Appointments](#appointments)
+- [Teaching](#teaching)
+- [Awards & fellowships](#awards)
+- [Skills, service & memberships](#skills)
 :::
+
+## Clinical activity {#clinical-activity}
+
+Reference physician for muscular and inherited metabolic diseases at Hospital Clínic de Barcelona — both intra-hospital (internal referrals from pulmonology, cardiology, surgery, endocrinology and others) and as a national and international referral for these conditions.
+
+- Leads the **muscle-disease arm** of the Hospital Clínic muscular & metabolic diseases group (metabolic arm led by Dr. Pedro Moreno), coordinating multidisciplinary care across neurology, pneumology, cardiology, rehabilitation, dermatology, endocrinology, genetics and psychiatry.
+- Runs a **monographic referral outpatient clinic** for adults with muscular and metabolic diseases (~280 active patients; ~80–90 new and ~450 follow-up visits per year), including structured transfer of adult patients from the pediatric Hospital Sant Joan de Déu.
+- **Coordinates 100% of the group's diagnostic procedures and personally performs ~80%** in the Internal Medicine Day Hospital: muscle biopsy (~120–140/yr), nerve biopsy (15–20/yr), skin biopsy (7–10/yr) and forearm ischemia testing.
+- Created and coordinates a **private biobank** (muscle, plasma, serum, DNA) at IDIBAPS — over **2,000 samples** — enabling national and international research collaborations; designed the standardized biopsy-request circuit now used across Catalonia, Spain and Latin America.
+- Leads **weekly muscle-pathology sessions** (Fridays) with virtual participation from centers in Spain, Latin America and the USA.
+- Active in general internal medicine (hospitalization ward and on-call duties).
+
+**Care innovations**
+
+- Introduced new therapies into Internal Medicine: enzyme-replacement therapy (Gaucher, Pompe), 3,4-diaminopyridine (congenital myasthenic syndromes), and anti–plasma cell therapy (teclistamab) for refractory idiopathic inflammatory myopathy, in collaboration with Hematology.
+- Implemented **anti-human IgG immunohistochemistry** on muscle tissue as a new diagnostic technique.
+- Optimized circuits for genetic testing and for research referral of undiagnosed patients.
+
+**Reference networks & accreditations**
+
+- Member of **CSUR** and **XUEC** accredited groups (Congenital Metabolic Diseases; Systemic Autoimmune Diseases).
+- Contributor to two **ENMC international workshops** (2026): #293 (immune-checkpoint-inhibitor myotoxicity) and #294 (paraproteinemic myopathies).
+
+## Research {#research}
+
+### Publications {#publications}
+
+*Selected below (name highlighted). The full, continuously updated list is generated from PubMed — see [complete list](#complete-list).*
+
+::: {.pub .featured}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, et al. The pattern of MHC class I expression in muscle biopsies from patients with myositis and other neuromuscular disorders. [*Rheumatology*. 2023.]{.venue}
+:::
+::: {.pub .featured}
+[**Milisenda JC**]{.me}, Pinal-Fernandez I, Lloyd TE, Grau JM, Miller FW, Selva-O'Callaghan A, et al. Accumulation of autophagosome cargo protein p62 is common in idiopathic inflammatory myopathies. [*Clin Exp Rheumatol*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Pinal-Fernandez I, Casal-Dominguez M, Derfoul A, [**Milisenda JC**]{.me}, et al. Machine-learning algorithms reveal unique gene-expression profiles in muscle biopsies from patients with different types of myositis. [*Ann Rheum Dis*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Montagne JM, Zheng XA, Pinal-Fernandez I, [**Milisenda JC**]{.me}, et al. Ultra-efficient sequencing of T-cell receptor repertoires reveals shared responses in muscle from patients with myositis. [*EBioMedicine*. 2020.]{.venue}
+:::
+::: {.pub .featured}
+Milisenda JC, Matas-García A. Pompe disease. [*Med Clin (Barc)*. 2025.]{.venue}
 :::
 
+#### Complete list {#complete-list}
+
+{{< include _auto_publications.qmd >}}
+
+### Competitive funded research projects {#projects}
+
+::: {.cv-entry}
+[**FIS PI24/00428** — Instituto de Salud Carlos III. *Molecular signature and 3D muscle models to establish etiology, biomarkers and therapeutics in inclusion body myositis.* Co-principal investigator (with G. Garrabou). €152,500.]{} · [2025–2027]{.date}
+:::
+::: {.cv-entry}
+[**FEMI Proyectos 2022** — Spanish Society of Internal Medicine. *Digital muscle biopsy: transcriptomic analysis as an alternative to conventional histology in myositis.* Principal investigator. €27,456.]{} · [2023–2026]{.date}
+:::
+::: {.cv-entry}
+[**PrometER 2023** — CIBERER / Instituto de Salud Carlos III. *Transcriptomic profile in systemic-sclerosis–associated myopathy.* Principal investigator. €19,782.]{} · [2024]{.date}
+:::
+::: {.cv-entry}
+[Member of the funded **Consolidated Research Group (GRC)** on neuromuscular & inherited metabolic diseases — AGAUR, Generalitat de Catalunya (2021 SGR 01423), IDIBAPS.]{}
+:::
+
+### Doctoral thesis {#phd}
+
+::: {.cv-entry}
+[**PhD in Medicine**, *cum laude* — Universitat de Barcelona. Doctoral programme in Medicine and Translational Research. Advisor: Josep Maria Grau Junyent.]{} · [2019]{.date}
+:::
+
+### Conference communications {#communications}
+
+Abstracts and oral communications at national and international meetings (author role noted).
+
+::: {.callout-note appearance="simple" collapse="true" title="Show all communications"}
+- **2026** — Aggregation of HARS1 and internalized antibodies in muscle biopsies of patients with antisynthetase syndrome. *(First author.)*
+- **2026** — Muscle transcriptomic profile in patients with dermatomyositis without characteristic histopathology. *(First author.)*
+- **2025** — Myeloid dendritic cell subsets characterize muscle of inclusion body myositis patients and correlate with disease features. *(Co-author.)*
+- **2025** — Aggregation of HARS1 and internalized antibodies in muscle biopsies of patients with antisynthetase syndrome. *(Co-author.)*
+- **2024** — Anti-Mi2 autoantibodies in dermatomyositis patients also recognize the autoimmune regulator (AIRE) protein. *(Co-author.)*
+- **2024** — Specific transcriptomic profile associated with disease activity in muscle biopsies from patients with myositis. *(Co-author.)*
+- **2024** — Antisynthetase autoantibodies disrupt the function of their target aminoacyl-tRNA synthetases in muscle. *(Co-author.)*
+- **2024** — Comparative transcriptional profiling reveals shared pathway activation in Jo-1+ antisynthetase syndrome. *(Co-author.)*
+- **2023** — Muscle pathology in patients with primary biliary cholangitis. *(First author.)*
+- **2023** — Transcriptional derepression of CHD4/NuRD-regulated genes in the muscle of patients with dermatomyositis. *(Second author.)*
+- **2023** — Transcriptomic profiles in muscle biopsies from systemic sclerosis patients with different autoantibodies. *(Second author.)*
+- **2019** — The prevalence of p62 immunostaining in muscle biopsies from patients with myositis and non-inflammatory myopathies. *(First author.)*
+- **2019** — Afectación gastrointestinal en pacientes con dermatomiositis: 3 casos y revisión de la literatura. *(Co-author.)*
+- **2019** — Tumour-infiltrating lymphocyte quantification in cancer-associated dermatomyositis. *(Co-author.)*
+- **2019** — Myositis autoantigen expression correlates with muscle regeneration but not autoantibody specificity. *(Co-author.)*
+- **2019** — PD-1/PD-L1 inhibitor-associated myositis: characteristic histopathological muscle pattern. *(Co-author.)*
+- **2018** — ANO5: three different phenotypes and a new histological pattern. *(Last author.)*
+- **2018** — Long-term motor function in collagen VI-related myopathies. *(Co-author.)*
+- **2018** — Miopatía necrosante con anticuerpos anti-HMGCoA. *(Co-author.)*
+- **2018** — Hiperckemia y rabdomiólisis. *(Co-author.)*
+- **2016** — Distinctive liver immunofluorescence pattern in statin-associated autoimmune myopathy with anti-HMGCR. *(Co-author.)*
+- **2013** — Adult Pompe disease: screening in patients with myopathies of unknown etiology. *(Co-author.)*
+- **2012** — Dermatomyositis presenting with severe subcutaneous edema: five cases and review of the literature. *(First author.)*
+- **2012** — Leptomeningeal amyloidosis due to the transthyretin p.Ala25Thr mutation. *(Co-author.)*
+- **2012** — Forearm ischemic exercise test (FIET): experience in an internal medicine department. *(Co-author.)*
+:::
+
+### Editorial boards {#editorial}
+
+::: {.cv-entry}
+[**Current Treatment Options in Rheumatology** — editorial board member. Indexed in Scopus (CiteScore; SJR quartile) and Web of Science.]{}
+:::
+::: {.cv-entry}
+[**Discover Immunity** — editorial board member. Indexed in Dimensions, Google Scholar, ProQuest and Portico.]{}
+:::
+
+### Clinical trials — site principal investigator {#trials}
+
+Principal investigator at Hospital Clínic for non-competitive multicenter (industry-sponsored) trials in inflammatory and mitochondrial myopathies.
+
+::: {.callout-note appearance="simple" collapse="true" title="Show trials"}
+- **Nipocalimab** in active idiopathic inflammatory myopathy (SPIREA, Phase 2) — Janssen-Cilag. 2024–2028.
+- **Efgartigimod PH20 SC** in idiopathic inflammatory myopathy (Phase 2/3 and open-label extension) — Argenx. 2023–2026.
+- **GLPG3667** in dermatomyositis (Phase 2) — Galapagos. 2023–2025.
+- **IgPro20 (subcutaneous immunoglobulin, Hizentra)** in dermatomyositis (RECLAIIM) — CSL Behring. 2023.
+- **AAV8 antibody seroprevalence** in late-onset Pompe disease — Astellas Gene Therapies. 2024–2028.
+- **REN001** in primary mitochondrial myopathy (long-term safety) — Reneo Pharma / Orphan Reach. 2021–2024.
+- **Elamipretide** in primary mitochondrial myopathy (Phase 3) — Stealth Biotherapeutics. 2022–2025.
+:::
+
+## Education {#education}
+
+::: {.cv-entry}
+[**Master's in Hospital and Healthcare Services Management** — Universitat de Barcelona]{} · [2026]{.date}
+:::
+::: {.cv-entry}
+[**PhD in Medicine**, *cum laude* — Universitat de Barcelona]{} · [2019]{.date}
+:::
+::: {.cv-entry}
+[**Specialist in Internal Medicine** (MIR) — Hospital Clínic de Barcelona]{} · [2010–2015]{.date}
+:::
+::: {.cv-entry}
+[**MD** — National University of Córdoba, Argentina]{} · [2003–2009]{.date}
+:::
+::: {.cv-entry}
+[Postgraduate diplomas & master's: Molecular Medicine (Autoimmune Diseases, UB); *DIU de Myologie* (Pierre & Marie Curie, Paris VI); Medical Genetics (València); Inherited Metabolic Diseases (Santiago de Compostela); Lysosomal Diseases (Alcalá); Design & Statistics in Health Sciences (UAB).]{}
+:::
+
+## Appointments {#appointments}
+
+::: {.cv-entry}
+[**Head, Unit of Neuromuscular, Mitochondrial and Autonomic Nervous System Diseases (UF-MNMA)** — Hospital Clínic de Barcelona]{} · [2026–present]{.date}
+:::
+::: {.cv-entry}
+[**Senior Physician, Internal Medicine** — Hospital Clínic de Barcelona]{} · [2017–present]{.date}
+:::
+::: {.cv-entry}
+[**Associate Professor** — Faculty of Medicine & Health Sciences, Universitat de Barcelona]{} · [2018–present]{.date}
+:::
+::: {.cv-entry}
+[**Research stays** — NIH / NIAMS, Bethesda, USA (postdoctoral 2021–2022; visiting 2017)]{}
+:::
+
+## Teaching {#teaching}
+
+::: {.cv-entry}
+[Associate Professor — *Clinical Semiology & Medical Ethics* (Medicine) and *Pathophysiology & Imaging* (Nursing), UB]{} · [2018–present]{.date}
+:::
+::: {.cv-entry}
+[Coordinator & lecturer — Master's in Advanced Medical Competencies: *Autoimmune Diseases*, UB]{} · [2016–present]{.date}
+:::
+
+## Awards & fellowships {#awards}
+
+::: {.cv-entry}
+[**Emili Letang End-of-Residency Award**, Hospital Clínic — project on anti-mitochondrial M2 antibody myopathy]{} · [2015–2016]{.date}
+:::
+::: {.cv-entry}
+[International research-stay fellowship, PhD programme *Medicina i Recerca Translacional*]{} · [2016–2017]{.date}
+:::
+::: {.cv-entry}
+[Multiple best-oral-communication awards, national & Catalan internal-medicine congresses]{}
+:::
+
+## Skills, service & memberships {#skills}
+
+::: {.cv-entry}
+[**Data & methods** — statistical analysis (SPSS), reference management, GCP-certified for clinical trials.]{}
+:::
+::: {.cv-entry}
+[**Societies** — Spanish Society of Internal Medicine (SEMI): Minority Diseases, Clinical Ultrasound, and Systemic Autoimmune Diseases groups.]{}
+:::
+::: {.cv-entry}
+[**Languages** — Spanish (native), English (advanced), Catalan & French (intermediate).]{}
+:::
+
+:::
+
+<!-- ==================== CATALÀ ==================== -->
 ::: {.content-visible when-profile="ca"}
-```{=html}
-<div class="hero-center">
-  <img class="hero-photo-lg" src="assets/profile.png" alt="José César Milisenda">
-  <h1 class="hero-name">José César Milisenda</h1>
-  <div class="hero-role2">MD, PhD &middot; Medicina Interna i Malaltia Neuromuscular</div>
-</div>
-```
+# Currículum {.title}
 
-::: {.bio-center}
 ::: {.callout-note appearance="simple"}
-Esborrany de traducció — pendent de revisió.
+Aquesta pàgina encara està en construcció en català. De moment, consulta la **[versió en anglès](../cv.html)**, més completa.
 :::
 
-Cap de la **Unitat de Malalties Neuromusculars, Mitocondrials i del Sistema Nerviós Autònom (UF-MNMA)** de l'Hospital Clínic de Barcelona i professor associat de la **Universitat de Barcelona**. La meva recerca se centra en les miopaties inflamatòries idiopàtiques — dermatomiositi, miopatia necrotitzant immunomediada, miositi per cossos d'inclusió i síndrome antisintetasa —, integrant la caracterització clínica, la histopatologia muscular i la biologia molecular.
-
-Em vaig formar en Medicina a la Universitat Nacional de Córdoba, vaig completar la residència de Medicina Interna i el doctorat (*cum laude*, 2019) a l'Hospital Clínic / Universitat de Barcelona, i vaig ser **fellow postdoctoral al NIH / NIAMS** (Bethesda). Coordino la col·lecció privada de mostres biològiques de la nostra unitat.
-
-**Línies de recerca**
-
-[Miopaties inflamatòries]{.research-tag} [Histopatologia muscular]{.research-tag} [Transcriptòmica muscular]{.research-tag} [Autoanticossos]{.research-tag} [Biobanc muscular]{.research-tag}
-:::
+[[Descarrega el PDF](assets/Milisenda_CV.pdf)]{.hero-role}
 :::
 
+<!-- ==================== ESPAÑOL ==================== -->
 ::: {.content-visible when-profile="es"}
-```{=html}
-<div class="hero-center">
-  <img class="hero-photo-lg" src="assets/profile.png" alt="José César Milisenda">
-  <h1 class="hero-name">José César Milisenda</h1>
-  <div class="hero-role2">MD, PhD &middot; Medicina Interna y Enfermedad Neuromuscular</div>
-</div>
-```
+# Currículum {.title}
 
-::: {.bio-center}
 ::: {.callout-note appearance="simple"}
-Borrador de traducción — pendiente de revisión.
+Esta página todavía está en construcción en español. Por ahora, consulta la **[versión en inglés](../cv.html)**, más completa.
 :::
 
-Jefe de la **Unidad de Enfermedades Neuromusculares, Mitocondriales y del Sistema Nervioso Autónomo (UF-MNMA)** del Hospital Clínic de Barcelona y profesor asociado de la **Universitat de Barcelona**. Mi investigación se centra en las miopatías inflamatorias idiopáticas — dermatomiositis, miopatía necrotizante inmunomediada, miositis por cuerpos de inclusión y síndrome antisintetasa —, integrando la caracterización clínica, la histopatología muscular y la biología molecular.
-
-Me formé en Medicina en la Universidad Nacional de Córdoba, completé la residencia de Medicina Interna y el doctorado (*cum laude*, 2019) en el Hospital Clínic / Universitat de Barcelona, y fui **fellow postdoctoral en el NIH / NIAMS** (Bethesda). Coordino la colección privada de muestras biológicas de nuestra unidad.
-
-**Líneas de investigación**
-
-[Miopatías inflamatorias]{.research-tag} [Histopatología muscular]{.research-tag} [Transcriptómica muscular]{.research-tag} [Autoanticuerpos]{.research-tag} [Biobanco muscular]{.research-tag}
+[[Descargar PDF](assets/Milisenda_CV.pdf)]{.hero-role}
 :::
-:::
-
-```{=html}
-<figure class="histo-feature">
-  <img class="histo-img" src="assets/histology.jpg" alt="Muscle biopsy histology">
-  <figcaption>Muscle biopsy — from our tissue collection</figcaption>
-</figure>
-```

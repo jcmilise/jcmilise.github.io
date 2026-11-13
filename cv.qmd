@@ -120,7 +120,7 @@ Milisenda JC, Matas-García A. Pompe disease. [*Med Clin (Barc)*. 2025.]{.venue}
 ### Doctoral thesis {#phd}
 
 ::: {.cv-entry}
-[**PhD in Medicine**, *cum laude* — Universitat de Barcelona. Doctoral programme in Medicine and Translational Research. Advisor: Josep Maria Grau Junyent.]{} · [2019]{.date}
+[Doctoral programme in Medicine and Translational Research, Universitat de Barcelona. Thesis advisor and tutor: Josep Maria Grau Junyent.]{} · [2019]{.date}
 :::
 
 ### Conference communications {#communications}
@@ -184,16 +184,31 @@ Principal investigator at Hospital Clínic for non-competitive multicenter (indu
 [**Master's in Hospital and Healthcare Services Management** — Universitat de Barcelona]{} · [2026]{.date}
 :::
 ::: {.cv-entry}
-[**PhD in Medicine**, *cum laude* — Universitat de Barcelona]{} · [2019]{.date}
+[**PhD in Medicine**, *cum laude* — Universitat de Barcelona ([thesis details](#phd))]{} · [2019]{.date}
+:::
+::: {.cv-entry}
+[**Master's in Lysosomal Diseases** — Universidad de Alcalá]{} · [2018–2019]{.date}
+:::
+::: {.cv-entry}
+[**Master's in Inherited Metabolic Diseases** (*máster propio*) — Universidade de Santiago de Compostela]{} · [2016–2017]{.date}
+:::
+::: {.cv-entry}
+[**Diploma in Medical Genetics** — Universitat de València]{} · [2016]{.date}
+:::
+::: {.cv-entry}
+[**Diploma in Muscle Pathology** (*DIU de Myologie*) — Université Pierre et Marie Curie – Paris VI, UFR Pitié-Salpêtrière]{} · [2015–2016]{.date}
+:::
+::: {.cv-entry}
+[**Master's in Advanced Medical Competences: Autoimmune Diseases** — Universitat de Barcelona]{} · [2013–2015]{.date}
+:::
+::: {.cv-entry}
+[**Postgraduate Diploma in Design and Statistics in Health Sciences** — Universitat Autònoma de Barcelona]{} · [2011–2013]{.date}
 :::
 ::: {.cv-entry}
 [**Specialist in Internal Medicine** (MIR) — Hospital Clínic de Barcelona]{} · [2010–2015]{.date}
 :::
 ::: {.cv-entry}
-[**MD** — National University of Córdoba, Argentina]{} · [2003–2009]{.date}
-:::
-::: {.cv-entry}
-[Postgraduate diplomas & master's: Molecular Medicine (Autoimmune Diseases, UB); *DIU de Myologie* (Pierre & Marie Curie, Paris VI); Medical Genetics (València); Inherited Metabolic Diseases (Santiago de Compostela); Lysosomal Diseases (Alcalá); Design & Statistics in Health Sciences (UAB).]{}
+[**MD** (*Médico Cirujano*) — National University of Córdoba, Faculty of Medical Sciences, Argentina. Degree recognised in Spain as *Licenciado en Medicina* (Ministry of Education, 2009)]{} · [2003–2009]{.date}
 :::
 
 ## Appointments {#appointments}

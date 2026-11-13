@@ -1,91 +1,100 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
 
-// Palette — grounded in muscle-biopsy histology (eosin wine on paper)
-$paper:      #FBFAF8;
-$ink:        #1C1A18;
-$muted:      #66625C;
-$eosin:      #8E3B54;   // eosin-stained tissue → signature accent
-$eosin-soft: #B76B80;
-$hairline:   #E7E3DC;
+// Paleta UF-MNMA (sistema de diseño de la unidad; la de ufmnma.org y los trípticos)
+$blanco:       #ffffff;
+$marino:       #0d2c54;
+$secundario:   #43546b;   // texto-secundario
+$verde:        #0f7b5f;
+$verde-texto:  #0b634d;
+$verde-suave:  #e1f3ec;
+$carmin:       #c2255c;
+$tinte:        #f3f6f8;
+$linea:        #dce4ec;
 
-$body-bg:        $paper;
-$body-color:     $ink;
-$link-color:     $eosin;
-$link-hover-color: darken($eosin, 10%);
+$fondo:        $blanco;
+$titular:      $marino;
+$acento:       $verde;
+$acento-texto: $verde;
+$enlace:       $marino;
+$enlace-hover: $verde-texto;
+$tag-texto:    $verde-texto;
+$tag-fondo:    $verde-suave;
 
-$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-$headings-font-family:   "Spectral", Georgia, serif;
+$body-bg:          $fondo;
+$body-color:       $marino;
+$link-color:       $enlace;
+$link-hover-color: $enlace-hover;
+
+$font-family-sans-serif: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-family:   Manrope, "Segoe UI", system-ui, -apple-system, sans-serif;
 $font-size-root:  17px;
 $line-height-base: 1.65;
-$headings-font-weight: 500;
+$headings-font-weight: 700;
 
-$navbar-bg: $paper;
-$navbar-light-color: $muted;
-$navbar-light-hover-color: $eosin;
-$navbar-light-active-color: $ink;
+$navbar-bg: $blanco;
+$navbar-light-color: $marino;
+$navbar-light-hover-color: $verde-texto;
+$navbar-light-active-color: $verde;
+
+$callout-color-note: $verde;
 
 /*-- scss:rules --*/
 
-body { -webkit-font-smoothing: antialiased; letter-spacing: -0.005em; }
+:root { --uf-tinte: #{$tinte}; --uf-linea: #{$linea}; --uf-secundario: #{$secundario}; }
 
-.navbar {
-  border-bottom: 1px solid $hairline;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-.navbar-brand { font-family: "Spectral", serif; font-weight: 600; font-size: 1.15rem; }
+body { -webkit-font-smoothing: antialiased; }
+
+.navbar { border-bottom: 1px solid $linea; font-family: $font-family-sans-serif; font-weight: 700; }
+.navbar-brand { font-family: $headings-font-family; font-weight: 800; font-size: 1.15rem; }
 
 // Content width — CV reads better narrow
 main.content, .page-columns { max-width: 780px; }
 
-h1, h2, h3 { letter-spacing: -0.015em; }
-h1.title { font-weight: 600; font-size: 2.4rem; line-height: 1.1; margin-bottom: 0.2rem; }
+h1, h2, h3, h4 { color: $titular; }
+h1.title { font-weight: 700; font-size: 2.4rem; line-height: 1.1; margin-bottom: 0.2rem; }
 
-// Section headers on CV — eosin hairline marker
-h2 {
-  font-size: 1.5rem;
-  margin-top: 2.6rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid $hairline;
-}
+// Section headers — marcador en el color de acción de la unidad
+h2 { font-size: 1.5rem; margin-top: 2.6rem; padding-bottom: 0.35rem; border-bottom: 1px solid $linea; }
 h2::before {
-  content: "";
-  display: inline-block;
-  width: 1.6rem; height: 2px;
-  background: $eosin;
-  vertical-align: middle;
-  margin-right: 0.6rem;
-  transform: translateY(-0.25rem);
+  content: ""; display: inline-block; width: 1.6rem; height: 3px; border-radius: 999px;
+  background: $acento; vertical-align: middle; margin-right: 0.6rem; transform: translateY(-0.2rem);
 }
 
 // Hero on home
-.hero-photo {
-  width: 168px; height: 168px; border-radius: 50%;
-  object-fit: cover; border: 3px solid $paper;
-  box-shadow: 0 0 0 1px $hairline;
-}
-.hero-role { color: $muted; font-size: 1.05rem; margin-top: 0.1rem; }
+.hero-photo { width: 168px; height: 168px; border-radius: 50%; object-fit: cover; border: 3px solid $fondo; box-shadow: 0 0 0 1px $linea; }
+.hero-role { color: $secundario; font-size: 1.0625rem; margin-top: 0.1rem; }
 .research-tag {
-  display: inline-block; font-size: 0.85rem; color: $eosin;
-  border: 1px solid $eosin-soft; border-radius: 999px;
-  padding: 0.15rem 0.7rem; margin: 0.2rem 0.3rem 0.2rem 0;
+  display: inline-block; font-size: 0.88rem; font-weight: 700; color: $tag-texto; background: $tag-fondo;
+  border-radius: 999px; padding: 0.15rem 0.75rem; margin: 0.2rem 0.3rem 0.2rem 0;
 }
 
 // Publication list
-.pub { margin-bottom: 0.9rem; padding-left: 1rem; border-left: 2px solid $hairline; }
-.pub .authors { color: $ink; }
-.pub .venue { color: $muted; font-style: italic; }
-.pub .me { color: $eosin; font-weight: 600; }
-.pub.featured { border-left-color: $eosin; }
+.pub { margin-bottom: 0.9rem; padding-left: 1rem; border-left: 2px solid $linea; }
+.pub .venue { color: $secundario; font-style: italic; }
+.pub .me { color: $acento-texto; font-weight: 700; }
+.pub.featured { border-left-color: $acento; }
 
-// Links
-a { text-decoration: none; border-bottom: 1px solid rgba($eosin, 0.25); }
-a:hover { border-bottom-color: $eosin; }
-.navbar a, .nav-link { border-bottom: none; }
+// Links — subrayados; en hover, verde
+a { color: $enlace; text-decoration: underline; text-underline-offset: 2px; }
+a:hover { color: $enlace-hover; }
+.navbar a, .nav-link, .nav-footer a { text-decoration: none; }
+a:focus-visible, button:focus-visible { outline: 3px solid $acento; outline-offset: 3px; }
+
+// Navegación en los colores de la unidad
+.navbar .navbar-brand, .navbar .nav-link, .navbar .bi, .navbar .aa-DetachedSearchButtonIcon { color: $titular !important; }
+.navbar .nav-link:hover { color: $enlace-hover !important; }
+.navbar .nav-link.active { color: $acento !important; }
+.nav-footer, .nav-footer a { color: $secundario; }
 
 // CV compact entries
 .cv-entry { margin-bottom: 0.6rem; }
-.cv-entry .date { color: $muted; font-variant-numeric: tabular-nums; }
+.cv-entry .date { color: $secundario; font-variant-numeric: tabular-nums; }
+
+// Logotipo de la unidad (UF-MNMA): versión color en claro, negativo en oscuro
+.unit-logo { margin: 0.4rem 0 1.4rem; }
+.unit-logo img { height: 72px; width: auto; }
+.unit-logo .logo-negativo { display: none; }
+body.quarto-dark .unit-logo .logo-color { display: none; }
+body.quarto-dark .unit-logo .logo-negativo { display: inline; }

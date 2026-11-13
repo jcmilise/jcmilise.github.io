@@ -1,46 +1,95 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
 
-$paper:      #15130F;   // ink-dark ground
-$ink:        #ECE7DF;
-$muted:      #9C968C;
-$eosin:      #D98BA0;   // eosin lifted for dark bg
-$eosin-soft: #A85E72;
-$hairline:   #2C2822;
+// Paleta UF-MNMA sobre bloque oscuro: fondo marino, texto blanco, acentos en menta
+$blanco:       #ffffff;
+$marino:       #0d2c54;
+$menta:        #8fe3b0;
+$carmin-claro: #f7b6cc;
+$secundario:   rgba($blanco, 0.8);
+$tinte:        rgba($blanco, 0.07);
+$linea:        rgba($blanco, 0.2);
 
-$body-bg:        $paper;
-$body-color:     $ink;
-$link-color:     $eosin;
-$link-hover-color: lighten($eosin, 8%);
+$fondo:        $marino;
+$titular:      $blanco;
+$acento:       $menta;
+$acento-texto: $menta;
+$enlace:       $blanco;
+$enlace-hover: $menta;
+$tag-texto:    $marino;
+$tag-fondo:    $menta;
 
-$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-$headings-font-family:   "Spectral", Georgia, serif;
+$body-bg:          $fondo;
+$body-color:       $blanco;
+$link-color:       $enlace;
+$link-hover-color: $enlace-hover;
+
+$font-family-sans-serif: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-family:   Manrope, "Segoe UI", system-ui, -apple-system, sans-serif;
 $font-size-root:  17px;
 $line-height-base: 1.65;
-$headings-font-weight: 500;
+$headings-font-weight: 700;
 
-$navbar-bg: $paper;
+$navbar-bg: $marino;
+
+$callout-color-note: $menta;
 
 /*-- scss:rules --*/
 
-body { -webkit-font-smoothing: antialiased; letter-spacing: -0.005em; }
-.navbar { border-bottom: 1px solid $hairline; font-family: "Inter", sans-serif; font-weight: 500; letter-spacing: 0.02em; }
-.navbar-brand { font-family: "Spectral", serif; font-weight: 600; font-size: 1.15rem; }
+:root { --uf-tinte: #{$tinte}; --uf-linea: #{$linea}; --uf-secundario: #{$secundario}; }
+
+body { -webkit-font-smoothing: antialiased; }
+
+.navbar { border-bottom: 1px solid $linea; font-family: $font-family-sans-serif; font-weight: 700; }
+.navbar-brand { font-family: $headings-font-family; font-weight: 800; font-size: 1.15rem; }
+
+// Content width — CV reads better narrow
 main.content, .page-columns { max-width: 780px; }
-h1, h2, h3 { letter-spacing: -0.015em; }
-h1.title { font-weight: 600; font-size: 2.4rem; line-height: 1.1; margin-bottom: 0.2rem; }
-h2 { font-size: 1.5rem; margin-top: 2.6rem; padding-bottom: 0.35rem; border-bottom: 1px solid $hairline; }
-h2::before { content: ""; display: inline-block; width: 1.6rem; height: 2px; background: $eosin; vertical-align: middle; margin-right: 0.6rem; transform: translateY(-0.25rem); }
-.hero-photo { width: 168px; height: 168px; border-radius: 50%; object-fit: cover; border: 3px solid $paper; box-shadow: 0 0 0 1px $hairline; }
-.hero-role { color: $muted; font-size: 1.05rem; margin-top: 0.1rem; }
-.research-tag { display: inline-block; font-size: 0.85rem; color: $eosin; border: 1px solid $eosin-soft; border-radius: 999px; padding: 0.15rem 0.7rem; margin: 0.2rem 0.3rem 0.2rem 0; }
-.pub { margin-bottom: 0.9rem; padding-left: 1rem; border-left: 2px solid $hairline; }
-.pub .venue { color: $muted; font-style: italic; }
-.pub .me { color: $eosin; font-weight: 600; }
-.pub.featured { border-left-color: $eosin; }
-a { text-decoration: none; border-bottom: 1px solid rgba($eosin, 0.3); }
-a:hover { border-bottom-color: $eosin; }
-.navbar a, .nav-link { border-bottom: none; }
+
+h1, h2, h3, h4 { color: $titular; }
+h1.title { font-weight: 700; font-size: 2.4rem; line-height: 1.1; margin-bottom: 0.2rem; }
+
+// Section headers — marcador en el color de acción de la unidad
+h2 { font-size: 1.5rem; margin-top: 2.6rem; padding-bottom: 0.35rem; border-bottom: 1px solid $linea; }
+h2::before {
+  content: ""; display: inline-block; width: 1.6rem; height: 3px; border-radius: 999px;
+  background: $acento; vertical-align: middle; margin-right: 0.6rem; transform: translateY(-0.2rem);
+}
+
+// Hero on home
+.hero-photo { width: 168px; height: 168px; border-radius: 50%; object-fit: cover; border: 3px solid $fondo; box-shadow: 0 0 0 1px $linea; }
+.hero-role { color: $secundario; font-size: 1.0625rem; margin-top: 0.1rem; }
+.research-tag {
+  display: inline-block; font-size: 0.88rem; font-weight: 700; color: $tag-texto; background: $tag-fondo;
+  border-radius: 999px; padding: 0.15rem 0.75rem; margin: 0.2rem 0.3rem 0.2rem 0;
+}
+
+// Publication list
+.pub { margin-bottom: 0.9rem; padding-left: 1rem; border-left: 2px solid $linea; }
+.pub .venue { color: $secundario; font-style: italic; }
+.pub .me { color: $acento-texto; font-weight: 700; }
+.pub.featured { border-left-color: $acento; }
+
+// Links — subrayados; en hover, verde
+a { color: $enlace; text-decoration: underline; text-underline-offset: 2px; }
+a:hover { color: $enlace-hover; }
+.navbar a, .nav-link, .nav-footer a { text-decoration: none; }
+a:focus-visible, button:focus-visible { outline: 3px solid $acento; outline-offset: 3px; }
+
+// Navegación en los colores de la unidad
+.navbar .navbar-brand, .navbar .nav-link, .navbar .bi, .navbar .aa-DetachedSearchButtonIcon { color: $titular !important; }
+.navbar .nav-link:hover { color: $enlace-hover !important; }
+.navbar .nav-link.active { color: $acento !important; }
+.nav-footer, .nav-footer a { color: $secundario; }
+
+// CV compact entries
 .cv-entry { margin-bottom: 0.6rem; }
-.cv-entry .date { color: $muted; font-variant-numeric: tabular-nums; }
+.cv-entry .date { color: $secundario; font-variant-numeric: tabular-nums; }
+
+// Logotipo de la unidad (UF-MNMA): versión color en claro, negativo en oscuro
+.unit-logo { margin: 0.4rem 0 1.4rem; }
+.unit-logo img { height: 72px; width: auto; }
+.unit-logo .logo-negativo { display: none; }
+body.quarto-dark .unit-logo .logo-color { display: none; }
+body.quarto-dark .unit-logo .logo-negativo { display: inline; }

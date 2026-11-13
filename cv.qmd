@@ -4,8 +4,8 @@ pagetitle: "CV — José C. Milisenda"
 
 ```{=html}
 <style>
-.cv-index { border: 1px solid var(--bs-border-color, #E7E3DC); border-radius: 10px; padding: 1rem 1.4rem 1.1rem; margin: 1.3rem 0 2.4rem; background: rgba(142,59,84,.035); }
-.cv-index p { margin: 0 0 .5rem; font-family: "Spectral", serif; font-weight: 600; font-size: 1.05rem; }
+.cv-index { border: 1px solid var(--uf-linea, #dce4ec); border-radius: 12px; padding: 1rem 1.4rem 1.1rem; margin: 1.3rem 0 2.4rem; background: var(--uf-tinte, #f3f6f8); }
+.cv-index p { margin: 0 0 .5rem; font-family: Manrope, sans-serif; font-weight: 700; font-size: 1.0625rem; }
 .cv-index ul { margin: 0; padding-left: 1.1rem; }
 .cv-index ul ul { margin: .15rem 0 .35rem; }
 .cv-index li { margin: .18rem 0; }
@@ -17,6 +17,13 @@ pagetitle: "CV — José C. Milisenda"
 ```
 
 ::: {.content-visible when-profile="en"}
+
+```{=html}
+<div class="unit-logo">
+  <img class="logo-color" src="assets/ufmnma-logo-horizontal-color.svg" alt="UF-MNMA · Hospital Clínic de Barcelona">
+  <img class="logo-negativo" src="assets/ufmnma-logo-horizontal-negativo.svg" alt="UF-MNMA · Hospital Clínic de Barcelona">
+</div>
+```
 
 # Curriculum Vitae {.title}
 
@@ -241,6 +248,13 @@ Principal investigator at Hospital Clínic for non-competitive multicenter (indu
 
 <!-- ==================== CATALÀ ==================== -->
 ::: {.content-visible when-profile="ca"}
+```{=html}
+<div class="unit-logo">
+  <img class="logo-color" src="assets/ufmnma-logo-horizontal-color.svg" alt="UF-MNMA · Hospital Clínic de Barcelona">
+  <img class="logo-negativo" src="assets/ufmnma-logo-horizontal-negativo.svg" alt="UF-MNMA · Hospital Clínic de Barcelona">
+</div>
+```
+
 # Currículum {.title}
 
 ::: {.callout-note appearance="simple"}
@@ -252,6 +266,13 @@ Aquesta pàgina encara està en construcció en català. De moment, consulta la 
 
 <!-- ==================== ESPAÑOL ==================== -->
 ::: {.content-visible when-profile="es"}
+```{=html}
+<div class="unit-logo">
+  <img class="logo-color" src="assets/ufmnma-logo-horizontal-color.svg" alt="UF-MNMA · Hospital Clínic de Barcelona">
+  <img class="logo-negativo" src="assets/ufmnma-logo-horizontal-negativo.svg" alt="UF-MNMA · Hospital Clínic de Barcelona">
+</div>
+```
+
 # Currículum {.title}
 
 ::: {.callout-note appearance="simple"}
